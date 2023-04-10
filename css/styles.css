@@ -224,6 +224,24 @@ body {
     padding-left: 0;
 }
 
+.main-item-wrap {
+    width: 264px;
+    height: 120px;
+    border-color: #F4F4FD;
+    border-radius: 4px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+
+.first-icons {
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .approach-item {
     width: calc((100% - 24px) / 4);
@@ -333,6 +351,54 @@ body {
     border-radius: 0px 0px 4px 4px;
     padding: 0px 0px 32px;
 }
+
+/* ---------COSTUMERS-------- */
+.customers-section {
+    padding-bottom: 120px;
+    padding-top: 120px;
+}
+
+.customers-title {
+    text-align: center;
+    font-size: 36px;
+    line-height: 1.11;
+    margin-bottom: 72px;
+}
+
+.customers-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.costumers-item {}
+
+.costumers-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 168px;
+    height: 88px;
+    border-radius: 4px;
+    border: 1px solid #434455;
+}
+
+.costumers-icon {
+    width: 184px;
+    height: 56px;
+    fill: #8f8f99;
+}
+
+.costumers-link:is(:hover, :focus) {
+    border: 1px solid var(--main-title-color)
+}
+
+.costumers-link:is(:hover, :focus) .costumers-icon {
+    fill: #404bbf;
+}
+
+
 /* ----------FOOTER--------- */
 .footer {
     background-color: var(--third-background-color);
@@ -362,6 +428,7 @@ padding: 0;
 .footer-container {
     display: flex;
     gap: 120px;
+    padding: 0;
 }
 
 .footer-soc-list {
@@ -441,6 +508,9 @@ padding: 0;
     border-color: transparent;
     color: var(--main-background-color);
     background-color: var(--main-title-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
+    0px 2px 1px rgba(0, 0, 0, 0.08), 
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .portfolio-button:focus {
@@ -451,7 +521,17 @@ padding: 0;
 
 /* ---------------PORTFOLIO 'LIST'-------------- */
 .top-line {
+        box-sizing: border-box;
+        position: absolute;
+        width: 1500px;
+        height: 72px;
+        left: 0px;
+        top: 0px;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     border-bottom: 1px solid #E7E9FC;
+    box-shadow: 0px 4px 2px rgba(46, 47, 66, 0.3), 
+    0px 1px 1px rgba(46, 47, 66, 0.16), 
+    0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .list-paragraph-portfolio {
@@ -475,6 +555,11 @@ padding: 0;
 
 .item {
     width: calc ((100% - 60px) / 3);
+}
+.item:hover {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
+    0px 1px 1px rgba(46, 47, 66, 0.16), 
+    0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .list-title-portfolio {
