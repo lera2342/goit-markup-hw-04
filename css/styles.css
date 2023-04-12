@@ -406,13 +406,29 @@ body {
     height: 56px;
 }
 
-.costumers-link:is(:hover, :focus) {
+/* .costumers-link:is(:hover, :focus) {
     border: 1px solid var(--main-title-color)
+} */
+
+.costumers-link:hover {
+    border: 1px solid var(--main-title-color);
 }
 
-.costumers-link:is(:hover, :focus) .costumers-icon {
-    fill: var(--main-title-color);
+.costumers-link:focus {
+    border: 1px solid var(--main-title-color);
 }
+
+.costumers-icon:hover {
+    border: 1px solid var(--main-title-color);
+}
+
+.costumers-icon:focus {
+    border: 1px solid var(--main-title-color);
+}
+
+/* .costumers-link:is(:hover, :focus) .costumers-icon {
+    fill: var(--main-title-color);
+} */
 
 
 /* ----------FOOTER--------- */
