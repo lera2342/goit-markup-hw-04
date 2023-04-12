@@ -418,20 +418,20 @@ body {
     border: 1px solid var(--main-title-color);
 }
 
-.costumers-icon:hover {
+/* .costumers-icon:hover {
     border: 1px solid var(--main-title-color);
 }
 
 .costumers-icon:focus {
     border: 1px solid var(--main-title-color);
-}
+} */
 
-/* .costumer-icon-use:hover {
+.costumer-icon-use:hover {
     color: var(--main-title-color);
 }
 .costumer-icon-use:focus {
     color: var(--main-title-color);
-} */
+}
 
 /* .costumers-icon {
     color: #8E8F99;
