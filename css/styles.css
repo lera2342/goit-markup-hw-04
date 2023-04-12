@@ -330,11 +330,11 @@ body {
 
 
 .team-soc-link:hover {
-    background-color: var(--main-title-color);
+    background-color: var(--main-title-color #404bbf);
 }
 
 .team-soc-link:focus {
-    background-color: var(--main-title-color);
+    background-color: var(--main-title-color #404bbf);
 }
 
 /* section-photo */
