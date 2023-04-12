@@ -412,10 +412,12 @@ body {
 
 .costumers-link:hover {
     border: 1px solid var(--main-title-color);
+    fill: var(--main-title-color);
 }
 
 .costumers-link:focus {
     border: 1px solid var(--main-title-color);
+    fill: var(--main-title-color);
 }
 
 /* .costumers-icon:hover {
