@@ -317,7 +317,7 @@ body {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    background-color: #4D5AE5;
+    background-color: var(--third-title-color);
     /* display: inline-block; */
     display: flex;
     align-items: center;
@@ -330,11 +330,11 @@ body {
 
 
 .team-soc-link:hover {
-    background-color: var(--main-title-color #404bbf);
+    background-color: var(--main-title-color);
 }
 
 .team-soc-link:focus {
-    background-color: var(--main-title-color #404bbf);
+    background-color: var(--main-title-color);
 }
 
 /* section-photo */
