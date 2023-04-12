@@ -328,10 +328,12 @@ body {
     fill: #ffffff;
 }
 
-
 .team-soc-link:hover {
     background-color: var(--main-title-color);
 }
+/* .team-soc-link:hover {
+    background-color: var(--main-title-color);
+} */
 
 .team-soc-link:focus {
     background-color: var(--main-title-color);
