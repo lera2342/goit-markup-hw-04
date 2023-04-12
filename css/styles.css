@@ -429,10 +429,10 @@ body {
 } */
 
 .costumer-icon-use:hover {
-    color: var(--main-title-color);
+    fill: var(--main-title-color);
 }
 .costumer-icon-use:focus {
-    color: var(--main-title-color);
+    fill: var(--main-title-color);
 }
 
 /* .costumers-icon {
